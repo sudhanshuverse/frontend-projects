@@ -12,7 +12,7 @@ This repository is my front-end learning portfolio, with all projects organized 
 - **Path**: `project/1-qr-code-card/`
 - **Description**: A responsive QR code card from a Frontend Mentor challenge, built with HTML and CSS.
 - **Screenshot**:
-  ![QR Code Card]()
+  ![QR Code Card](https://github.com/sudhanshu-101/frontend-projects/blob/f11679720247f1eeb24939466ec577424cf74cfd/1-qr-code-card/screenshot.png)
 
 *More projects coming soon!*
 
