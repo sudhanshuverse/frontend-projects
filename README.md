@@ -43,8 +43,9 @@ frontend-projects/
 
 
 ## 📬 Contact
+
 Feedback welcome! Connect with me:
 
-- GitHub: sudhanshu-101
+- **GitHub**: [sudhanshu-101](https://github.com/sudhanshu-101)
 
 Thanks for exploring my projects! 🚀
