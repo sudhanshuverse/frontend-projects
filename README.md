@@ -37,14 +37,14 @@ frontend-projects/
 ```
 
 ## 🌱 Future Plans
-    -Add more projects to project/ (e.g., 2-product-card).
-    -Include larger projects in a future advanced-projects/ folder.
-    -Host live demos via GitHub Pages.
+- Add more projects to project/ (e.g., 2-product-card).
+- Include larger projects in a future advanced-projects/ folder.
+- Host live demos via GitHub Pages.
 
 
 ## 📬 Contact
 Feedback welcome! Connect with me:
 
-    - GitHub: sudhanshu-101
+- GitHub: sudhanshu-101
 
 Thanks for exploring my projects! 🚀
