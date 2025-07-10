@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100vw;
+    font-family: sans-serif;
+}
+
+.header{
+    /* height: 300px; */
+    padding: 3rem;
+    background-color: #065FD4;
+    color: white;
+    background-image: url(./assets/image.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+h1{
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+span{
+    font-size: 2rem;
+}
+
+.header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    vertical-align: middle;
+    /* margin-left: -1rem; */
+}
+
+/* Sibling selector */
+img + img{
+    margin-left: -1rem;
+}
