@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: sans-serif;
+  background-color: #F5F5F5;
+}
+
+.container {
+  display: grid;
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+  max-width: 1200px;
+  margin-inline: auto;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.box {
+  min-height: 200px;
+  color: rgba(255, 255, 255, 0.904);
+  font-size: 4rem;
+  border-radius: 8px;
+  box-shadow: 10px 5px 40px rgba(0, 0, 0, 0.295);
+  padding: 2rem;
+}
+
+.box .para-one{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box .para-two{
+  font-size: 15px;
+}
+
+
+.box-one {
+  background-color: #733FC8;
+  position: relative;
+}
+
+.sec-one{
+  max-width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-one img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.head p{
+  font-size: 12px;
+  margin: 0 15px;
+  line-height: 17px;
+}
+
+.para-sec{
+  color: #ffffffaf;
+}
+
+.double-quote {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 80px;
+  opacity: 0.3; /* Optional: makes it less distracting */
+  z-index: 0; /* Behind the content */
+}
+
+.box-one .para-one{
+  position: relative;
+  z-index: 5;
+}
+
+
+.box-two {
+  background-color: #49556B;
+}
+
+.box-three {
+  background-color: #fff;
+  color: #535865;
+}
+
+.box-three .para-sec{
+  color: #49556bb0;
+}
+
+.box-four {
+  background-color: #fff;
+  color: #535865;
+
+}
+
+.box-five {
+  background-color: #191F2D;
+}
+
+
+
+
+@media (min-width: 600px) {
+  .parent {
+    margin-top: 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box {
+    min-height: 300px;
+  }
+
+  .box-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .box-three {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  .box-five {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding-top: 7rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .box-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .box-three {
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row: 1;
+    grid-row-end: 3;
+  }
+
+  .box-five {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
