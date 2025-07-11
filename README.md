@@ -20,7 +20,7 @@ This repository is my front-end learning portfolio, with all projects organized 
 
 1. **Clone**:
    ```bash
-   git clone https://github.com/sudhanshu-101/frontend-projects.git
+   git clone https://github.com/sudhanshuverse/frontend-projects.git
 
 2.  Navigate: cd frontend-projects/project/1-qr-code-card
 3.  View: Open index.html in a browser.
