@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #001422;
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-color);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px;
+}
+
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-1 {
+    height: 120px;
+    width: 120px;
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #ea8bfa 0%, #7526f5 100%);
+    top: -50px;
+    left: -50px;
+}
+
+.circle-2 {
+    height: 360px;
+    width: 360px;
+    background-image: radial-gradient(63.76% 63.76% at 50% 50%, #ff00c7 0%, #bd95ff 0.01%, #a661ff 32.29%, #6100ff 98.59%);
+    top: -125px;
+    right: -260px;
+}
+
+.circle-3 {
+    height: 230px;
+    width: 230px;
+    background-image: radial-gradient(67.47% 67.47% at 50% 50%, #fed0ff 0%, #7f00ff 100%);
+
+    bottom: -100px;
+    left: -150px;
+}
+
+
+.card-container {
+    position: relative;
+}
+
+.card {
+    max-width: 400px;
+    background-image: linear-gradient(148deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: relative;
+    padding: 18px;
+}
+
+.card-content {
+    border: 0.744px solid rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding: 24px 18px;
+
+
+}
+
+.tag-heart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tag {
+    border-radius: 5px;
+    color: #FFD147;
+    background-color: rgba(241, 198, 68, 0.24);
+    padding: 2px 6px;
+}
+
+.heart{
+    cursor: pointer;
+}
+
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-sub-title {
+    font-size: 12px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-value {
+    color: #F1C644;
+    font-size: 14px;
+    margin-inline: 14px;
+}
+
+.rating-count {
+    color: #DBDBDB;
+    font-size: 13px;
+}
+
+
+.card-button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.card-button:hover{
+    opacity: 1;
+}
