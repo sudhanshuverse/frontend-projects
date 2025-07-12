@@ -6,6 +6,5 @@ A sleek, responsive **Google-like search interface** with suggestion dropdown bu
 
 ## 📸 Screenshot
 
-> *(Replace the link below with your actual screenshot path)*
 
 ![Preview](./screenshot.png)
