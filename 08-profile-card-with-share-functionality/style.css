@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #9D40E4;
+    padding-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    height: 100%;
+    min-height: 850px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 340px;
+    height: 405px;
+    background-color: #9D40E4;
+    padding: 1.5rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.like-share{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.like-share img{
+    cursor: pointer;
+}
+
+.circle-one{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    background-color: #A453E2;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+
+.circle-two{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background-color: #A453E2;
+    position: absolute;
+    top: 100px;
+}
+
+
+.inner-card{
+    width: 100%;
+    max-width: 290px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    margin-top: 70px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.user-profile img{
+    width: 100%;
+}
+
+
+.user-profile{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(158, 113, 113);
+    border-radius: 100%;
+    padding: 7px;
+    position: absolute;
+    margin-top: -240px;
+    /* margin-inline: 90px; */
+}
+
+div.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: rgb(21, 255, 0);
+    position: absolute;
+    top: 80px;
+    right: 13px;
+    
+}
+
+
+.user-name{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 120px 0 0 0;
+}
+
+.developer-type{
+    font-size: 20px;
+    color: #A6A6A6;
+    margin-top: 10px;
+}
+
+.view-profile{
+    border: none;
+    background-color: #FECD2F;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.connection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.connection img{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 500px){
+    .container{
+        height: 10vh;
+    }
+
+    .inner-card{
+        padding: 5px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}

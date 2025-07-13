@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #191919;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.tooltip-container{
+    width: 518px;
+    border: 1px solid white;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+    color: white;
+    padding: 75px 40px 40px 40px;
+}
+
+
+.tooltip-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: 700;
+    gap: 20px;
+    height: 120px;
+    cursor: default;
+    position: relative;
+}
+
+
+.mongodb{
+    color: #47A248;
+}
+
+.react{
+    color: #61DAFB;
+}
+
+.node{
+    color: #8CC84B;
+}
+
+.tooltip-icon img{
+    position: relative;
+    z-index: 2;
+}
+
+.tooltip{
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    top: -16px;
+    background-color: #47A248;
+    border-radius: 24px;
+    padding: 8px 14px;
+    margin-left: -6px;
+    transition: all 0.25s ease-in-out;
+    opacity: 0;
+}
+
+
+.tooltip-icon:hover .tooltip{
+    top: -52px;
+    opacity: 1;
+}
+
+.tooltip span{
+    position: relative;
+    z-index: 1;
+}
+
+
+.tooltip::after{
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    transform: rotate(45deg) translateX(-50%);
+    left: 50%;
+    bottom: -12px;
+    background-color: inherit;
+}
+
+
+.mongodb .tooltip{
+    background-color: #47A248;
+    color: white;
+}
+
+.express .tooltip{
+    background-color: white;
+}
+
+.react .tooltip{
+    background-color: #61DAFB;
+}
+
+.node .tooltip{
+    background-color: #8CC84B;
+}
+
+
+@media (max-width: 550px){
+    .tooltip-container{
+        padding-inline: 15px;
+    }
+
+    body{
+        padding: 10px;
+    }
+}
