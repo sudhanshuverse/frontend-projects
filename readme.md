@@ -11,34 +11,34 @@ This repository is my front-end learning portfolio, with all projects organized 
 
 <table>
   <tr>
-    <td><img src="./01-qr-code-card/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./01-qr-code-card/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./02-card-project/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./02-card-project/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./03-youtube-header/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./03-youtube-header/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./04-column-preview-card-component/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./04-column-preview-card-component/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./05-css-grid-testimonial-section/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./05-css-grid-testimonial-section/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./06-e-commerce-card/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./06-e-commerce-card/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./07-custom-search-bar/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./07-custom-search-bar/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./08-profile-card-with-share-functionality/screenshot.png" width="470" height="280" /></td>
+    <td><img src="./08-profile-card-with-share-functionality/screenshot.png" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./09-tooltips/screenshot.gif" width="470" height="280" /></td>
+    <td><img src="./09-tooltips/screenshot.gif" width="600" height="280" /></td>
   </tr>
   <tr>
-    <td><img src="./10-custom-dropwon/screenshot.gif" width="470" height="280" /></td>
+    <td><img src="./10-custom-dropwon/screenshot.gif" width="600" height="280" /></td>
   </tr>
 </table>
 
