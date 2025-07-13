@@ -22,6 +22,9 @@ Here are some of the frontend challenges I've completed:
 | 🔹 8 | [Profile Card with Share Button](./08-profile-card-with-share-functionality) | `08-profile-card-with-share-functionality/` |
 | 🔹 9 | [Tooltips in CSS](./09-tooltips)                         | `09-tooltips/`                                  |
 | 🔹 10| [Custom Dropdown Menu](./10-custom-dropwon)              | `10-custom-dropwon/`                            |
+| 🔹 11| [responsive-navigation-barar](./11-responsive-navigation-barar) | `11-responsive-navigation-barar/`        |
+| 🔹 12| [grid-card](./12-grid-card)              | `12-grid-card/`                            |
+
 
 *More projects coming soon...*
 
