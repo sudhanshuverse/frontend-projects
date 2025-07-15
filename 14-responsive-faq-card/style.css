@@ -1,0 +1,143 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; /* Use min-height to allow content to expand */
+    background-color: #f9eeff;
+    font-family: WorkSans, sans-serif;
+}
+
+.main-box img {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    width: 90%; /* Slightly smaller than full width on mobile */
+    max-width: 700px;
+    background-color: #fff;
+    position: absolute;
+    top: 20%; /* Anchor the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.heading-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.heading-section img {
+    width: 45px;
+}
+
+.heading-section h1 {
+    font-size: 48px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #2b0d3a;
+}
+
+.faq-section details {
+    border-bottom: 1px solid #ddddddce;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+
+.faq-section summary {
+    font-size: 22px;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+.faq-section summary::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/icon-plus.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.faq-section details[open] summary::after {
+    background-image: url('./assets/icon-minus.svg');
+}
+
+.faq-section details summary:hover{
+    color: #9831CC;
+}
+
+.faq-section p {
+    margin-top: 15px;
+    color: #4a4a4a;
+    font-size: 18px;
+    line-height: 1.6;
+    max-height: 0; /* Initially hidden */
+    overflow: hidden; /* Prevent content from showing when closed */
+    transition: max-height 0.3s ease-out; /* Smooth transition */
+}
+
+.faq-section details[open] p {
+    max-height: 200px; /* Adjust if content is longer */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+    .card {
+        width: 95%; /* Nearly full width on mobile */
+        max-width: 500px; /* Smaller max-width */
+        padding: 20px; /* Reduced padding */
+        top: 10%; /* Closer to top on mobile */
+    }
+
+    .heading-section img {
+        width: 30px; /* Smaller star icon */
+    }
+
+    .heading-section h1 {
+        font-size: 32px; /* Smaller heading */
+        margin-left: 15px;
+    }
+
+    .faq-section summary {
+        font-size: 18px; /* Smaller summary text */
+        padding-right: 30px; /* Adjust for smaller plus/minus icon */
+    }
+
+    .faq-section summary::after {
+        width: 24px; /* Smaller plus/minus icon */
+        height: 24px;
+    }
+
+    .faq-section p {
+        font-size: 16px; /* Smaller paragraph text */
+    }
+
+    .faq-section details[open] p {
+        max-height: 300px; /* Slightly larger to accommodate text reflow */
+    }
+
+    .main-box img {
+        /* Optional: Use a mobile-specific background if provided */
+        background-image: url('./assets/background-pattern-mobile.svg'); /* Replace with mobile background if available */
+    }
+}
