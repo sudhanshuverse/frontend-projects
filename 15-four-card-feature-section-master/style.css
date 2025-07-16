@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    width: 100%;
+    max-width: 610px;
+    margin-top:60px;
+}
+
+.main-heading{
+    font-size: 45px;
+    font-weight: 400;
+    color: hsl(212, 6%, 44%);
+    text-align: center;
+    margin: 0;
+}
+
+.main-heading-second{
+    font-size: 45px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: hsl(212, 6%, 44%);
+    text-align: center;
+    letter-spacing: 0.06rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+.card-one{
+    height: 250px;
+    max-width: 350px;
+    padding: 0.2rem 2rem;
+    border-radius: 10px;
+    color: hsl(234, 12%, 34%);
+    box-shadow: 2px 10px 10px rgb(223, 221, 221);
+    position: relative;
+    
+}
+
+.card-one p{
+    color: hsl(212, 6%, 44%);;
+}
+
+.card-one img{
+    position: absolute;
+    right: 90px;
+}
+
+.one {
+    border-top: 6px solid #51CDCB;
+}
+
+.four{
+    border-top: 6px solid #5FA0E9;
+}
+
+
+
+.card-one-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.top-card{
+    height: 250px;
+    max-width: 350px;
+    padding: 0.2rem 2rem;
+    border-radius: 10px;
+    color: hsl(234, 12%, 34%);
+    box-shadow: 2px 10px 10px rgb(223, 221, 221);
+    position: relative;
+}
+
+.top-card img{
+    position: absolute;
+    right: 90px;
+}
+
+.two{
+    border-top: 6px solid #EA5456;
+}
+
+.three{
+    border-top: 6px solid #F9AC4C;
+}
+
+
+
+@media (max-width: 1110px){
+    .four{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 745px){
+
+    .main-heading{
+        font-size: 2.5rem;
+    }
+
+    .main-heading-second{
+        font-size: 2.5rem;
+    }
+
+    .two{
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 400px){
+
+    .heading{
+        margin-top: 1rem;
+    }
+
+    .main-heading{
+        font-size: 2rem;
+    }
+
+    .main-heading-second{
+        font-size: 2rem;
+    }
+
+    main{
+        padding-inline: 1rem;
+    }
+
+
+}
