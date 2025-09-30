@@ -30,7 +30,7 @@ Here are some of the frontend challenges I've completed:
 | 🔹 15| [Four Card Feature Section](./15-four-card-feature-section-master) | `15-four-card-feature-section-master/` |
 | 🔹 16| [Random Color Generator](./16-random-color-generator)    | `16-random-color-generator/`                   |
 | 🔹 17| [Popup](./17-popup)    | `17-popup/`                   |
-| 🔹 18| [Popup](./18-temperature-converter/)    | `18-temperature-converter/`                   |
+| 🔹 18| [temperature-converter](./18-temperature-converter/)    | `18-temperature-converter/`                   |
 
 
 
