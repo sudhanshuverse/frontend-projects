@@ -33,7 +33,6 @@ Here are some of the frontend challenges I've completed:
 | 🔹 18| [temperature-converter](./18-temperature-converter/)    | `18-temperature-converter/`                   |
 
 
-
 *More projects coming soon...*
 
 ## 🚀 Getting Started
