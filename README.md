@@ -30,7 +30,8 @@ Here are some of the frontend challenges I've completed:
 | 🔹 15| [Four Card Feature Section](./15-four-card-feature-section-master) | `15-four-card-feature-section-master/` |
 | 🔹 16| [Random Color Generator](./16-random-color-generator)    | `16-random-color-generator/`                   |
 | 🔹 17| [Popup](./17-popup)    | `17-popup/`                   |
-| 🔹 18| [temperature-converter](./18-temperature-converter/)    | `18-temperature-converter/`                   |
+| 🔹 18| [Temperature-converter](./18-temperature-converter/)    | `18-temperature-converter/`                   |
+| 🔹 18| [Responsive Navigation Menu](./19-responsive-navigation-menu/)    | `19-responsive-navigation-menu/`                   |
 
 
 *More projects coming soon...*
